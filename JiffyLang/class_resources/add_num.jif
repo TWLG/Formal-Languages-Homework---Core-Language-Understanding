@@ -1,0 +1,15 @@
+fun main()
+{
+	write("Please enter 2 numbers separately: ");
+	write("");
+	
+	read(x);
+	write(" saved as value one");
+	write("");		
+	 
+	read(y);
+	write(" saved as value two");
+	z = x + y;
+	write(z);
+	
+}

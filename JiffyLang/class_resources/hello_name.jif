@@ -1,0 +1,14 @@
+fun main()
+{
+	prompt = "Enter your name: ";
+	name = getName(prompt);
+	
+	write("Hello ");
+	write(name);
+}
+
+fun getName(prompt) {
+	write(prompt);
+	read(response);
+	return response;
+}
